@@ -1,5 +1,6 @@
+// 该文件租用将es6代码转换成浏览器能够识别的代码,设置转码的规则和插件
 {
-  "presets": [
+  "presets": [//设定转码规则
     ["env", {
       "modules": false,
       "targets": {

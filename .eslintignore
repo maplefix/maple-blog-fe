@@ -1,5 +1,12 @@
-/build/
-/config/
-/dist/
+# 忽略项目中某个文件夹的提交规范
+
+#忽略build目录下类型为js类型文件的语法检查
+/build/*.js
+#忽略src/assets目录下文件的语法检查
+src/assets
+#忽略public目录下文件的语法检查
+public
+#忽略当前目录下类型未js得文件语法检查
 /*.js
-/test/unit/coverage/
+#忽略当前目录下类型为vue得文件语法检查
+*.vue
